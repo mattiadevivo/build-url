@@ -21,3 +21,7 @@ Run `npm pack` to see generate the tarball and check if all and **only** the fil
 Run `npm link` in the root directory of the project, this will add a *symlink* in the global folder `{prefix}/lib/node_modules/<package>` that links to the package where the `npm link` command was executed.
 Then run `npm link <package-name>` inside a new directory, it will create a symbolic link from globally-installed `package-name` to `node_modules/` of the current folder.
 
+## Release process
+
+Run `npm adduser` if you don't have an npm account registered locally yet.
+Run `npm publish --acess public` to publish the package.

@@ -1,4 +1,4 @@
-# @mattiadevivo/build-url
+# @mdevivo/build-url
 
 A super simple and zero-dependency url builder.
 
