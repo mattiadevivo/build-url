@@ -15,7 +15,6 @@ export default function buildUrl(baseUrl: string, params?: UrlParams) {
   if (params?.queryParams) {
     if (!finalUrl.endsWith('?')) finalUrl += '?';
     for (const key in params.queryParams) {
-      console.log(key);
       finalUrl += `${key}=${params.queryParams[key]}&`;
     }
     finalUrl = finalUrl.slice(0, finalUrl.length - 1);
