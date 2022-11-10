@@ -1,0 +1,46 @@
+{
+  "name": "@mattiadevivo/build-url",
+  "version": "0.0.1",
+  "description": "A super simple and zero-dependency url builder",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .ts",
+    "prepublish": "tsc",
+    "pack": "npx npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattiadevivo/build-url.git"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "url",
+    "builder",
+    "buildurl"
+  ],
+  "author": {
+    "name": "Mattia De Vivo",
+    "email": "mattiadevivo@gmail.com",
+    "url": "https://github.com/mattiadevivo/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattiadevivo/build-url/issues"
+  },
+  "homepage": "https://github.com/mattiadevivo/build-url#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint": "^8.27.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}
