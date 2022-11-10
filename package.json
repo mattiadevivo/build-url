@@ -1,6 +1,6 @@
 {
   "name": "@mattiadevivo/build-url",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A super simple and zero-dependency url builder",
   "main": "dist/index.ts",
   "types": "dist/index.d.ts",
