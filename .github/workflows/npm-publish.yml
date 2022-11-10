@@ -30,6 +30,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
           scope: '@mattiadevivo'
       - run: npm ci
-      - run: npm publish --access  public
+      - run: npm publish --access public
         env:
-          npm-deploy: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
