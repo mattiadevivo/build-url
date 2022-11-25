@@ -19,6 +19,7 @@ export default function buildUrl(baseUrl: string, params?: UrlParams) {
     }
     finalUrl = finalUrl.slice(0, finalUrl.length - 1);
   }
+  finalUrl = finalUrl.replace(/(?<!\S*:)\/{2}/gm, '/');
   return encodeURI(finalUrl);
 }
 
