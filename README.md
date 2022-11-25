@@ -11,7 +11,7 @@ This new build-url comes with the intention of substituting it with **zero depen
 
 Install it with npm:
 ```bash
-npm install build-url --save
+npm install @mattiadevivo/build-url --save
 ```
 
 No need of `@types` package since it has built-in support for TypeScript. 
