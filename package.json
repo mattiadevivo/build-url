@@ -1,8 +1,8 @@
 {
   "name": "@mattiadevivo/build-url",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A super simple and zero-dependency url builder",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "files": [
