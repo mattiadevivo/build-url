@@ -1,3 +1,11 @@
+### 0.1.2
+
+- add support for Safari browser by removing lookbehind regex
+
+### 0.1.1
+
+- fix wrong instructions in README.md
+
 ### 0.1.0
 
 - fix `main` entry in `package.json` by setting correct file (`dist/index.js`). This was making the package unsable, sorry for that :)
